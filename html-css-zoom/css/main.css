@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+/*Utilities*/
+.icon {
+  background-color: #37363c;
+  padding: 5px;
+  border-radius: 30%;
+  color: white;
+  text-align: right;
+}
+.icon.speaker i {
+  margin-right: 5px;
+}
+
+/*Sections*/
+
 body {
   display: flex;
   flex-direction: column;
@@ -11,6 +25,7 @@ body {
 
 header {
   background-color: rgb(128, 98, 98);
+  text-align: right;
 }
 main {
   background-color: aquamarine;
