@@ -78,10 +78,36 @@ main {
 /*Footer*/
 footer {
   display: flex;
-  background-color: brown;
+  background-color: #222325;
   justify-content: space-between;
+}
+footer div {
+  padding: 4px;
 }
 .right {
   color: red;
   background-color: gray;
+}
+
+footer span {
+  text-align: center;
+  display: inline-block;
+  color: #dcdcdc;
+  padding: 5px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li i {
+  font-size: 25px;
+}
+
+.arrow {
+  font-size: 10px;
+}
+
+.share {
+  color: green;
 }
