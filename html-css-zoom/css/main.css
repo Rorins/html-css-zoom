@@ -2,15 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Lato;
 }
 
 /*Utilities*/
-.icon {
-  background-color: #37363c;
+button {
+  background-image: linear-gradient(rgba(165, 42, 42, 0.062), black);
   padding: 5px;
   border-radius: 30%;
   color: white;
   text-align: right;
+  border: none;
 }
 .icon.speaker i {
   margin-right: 5px;
@@ -27,14 +29,14 @@ body {
 }
 /*Header*/
 header {
-  background-color: rgb(128, 98, 98);
+  background-color: black;
   text-align: right;
-  padding: 4px;
+  padding: 10px 8px;
 }
 
 /*Main*/
 main {
-  background-color: aquamarine;
+  background-color: black;
   flex-grow: 1;
 }
 
@@ -48,7 +50,6 @@ main {
 
 .video-calls li {
   margin: 3px;
-  background-color: blue;
   width: 250px;
   height: 150px;
 }
@@ -76,5 +77,11 @@ main {
 
 /*Footer*/
 footer {
+  display: flex;
   background-color: brown;
+  justify-content: space-between;
+}
+.right {
+  color: red;
+  background-color: gray;
 }
